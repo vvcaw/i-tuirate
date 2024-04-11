@@ -1,0 +1,559 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/nix/store/ih9mk4l2rr9sd10rkmyjm38fn2ysypl0-cmake-3.27.7/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      The system is: Linux - 6.1.82 - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/nix/store/ih9mk4l2rr9sd10rkmyjm38fn2ysypl0-cmake-3.27.7/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/nix/store/ih9mk4l2rr9sd10rkmyjm38fn2ysypl0-cmake-3.27.7/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/nix/store/ih9mk4l2rr9sd10rkmyjm38fn2ysypl0-cmake-3.27.7/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /nix/store/d39m8arbjw7x079cvxf4xq6a1p9iql3q-clang-wrapper-16.0.6/bin/clang 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is Clang, found in:
+        /home/vvcaw/dev/i-tuirate/build/CMakeFiles/3.27.7/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/nix/store/ih9mk4l2rr9sd10rkmyjm38fn2ysypl0-cmake-3.27.7/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/nix/store/ih9mk4l2rr9sd10rkmyjm38fn2ysypl0-cmake-3.27.7/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/nix/store/ih9mk4l2rr9sd10rkmyjm38fn2ysypl0-cmake-3.27.7/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /nix/store/d39m8arbjw7x079cvxf4xq6a1p9iql3q-clang-wrapper-16.0.6/bin/clang++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is Clang, found in:
+        /home/vvcaw/dev/i-tuirate/build/CMakeFiles/3.27.7/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/nix/store/ih9mk4l2rr9sd10rkmyjm38fn2ysypl0-cmake-3.27.7/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/nix/store/ih9mk4l2rr9sd10rkmyjm38fn2ysypl0-cmake-3.27.7/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/vvcaw/dev/i-tuirate/build/CMakeFiles/CMakeScratch/TryCompile-GvwlWg"
+      binary: "/home/vvcaw/dev/i-tuirate/build/CMakeFiles/CMakeScratch/TryCompile-GvwlWg"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/vvcaw/dev/i-tuirate/build/CMakeFiles/CMakeScratch/TryCompile-GvwlWg'
+        
+        Run Build Command(s): /nix/store/ih9mk4l2rr9sd10rkmyjm38fn2ysypl0-cmake-3.27.7/bin/cmake -E env VERBOSE=1 /nix/store/5vyb54sgl2x1ihrdfvj46vi2w1acv9nn-gnumake-4.4.1/bin/make -f Makefile cmTC_fca8f/fast
+        /nix/store/5vyb54sgl2x1ihrdfvj46vi2w1acv9nn-gnumake-4.4.1/bin/make  -f CMakeFiles/cmTC_fca8f.dir/build.make CMakeFiles/cmTC_fca8f.dir/build
+        make[1]: Entering directory '/home/vvcaw/dev/i-tuirate/build/CMakeFiles/CMakeScratch/TryCompile-GvwlWg'
+        Building C object CMakeFiles/cmTC_fca8f.dir/CMakeCCompilerABI.c.o
+        /nix/store/d39m8arbjw7x079cvxf4xq6a1p9iql3q-clang-wrapper-16.0.6/bin/clang   -v -MD -MT CMakeFiles/cmTC_fca8f.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_fca8f.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_fca8f.dir/CMakeCCompilerABI.c.o -c /nix/store/ih9mk4l2rr9sd10rkmyjm38fn2ysypl0-cmake-3.27.7/share/cmake-3.27/Modules/CMakeCCompilerABI.c
+        clang version 16.0.6
+        Target: x86_64-unknown-linux-gnu
+        Thread model: posix
+        InstalledDir: /nix/store/pw7xsl0b4g7izz8hq2s5zkying2i7a4g-clang-16.0.6/bin
+        Found candidate GCC installation: /nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib/gcc/x86_64-unknown-linux-gnu/12.3.0
+        Found candidate GCC installation: /nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib64/gcc/x86_64-unknown-linux-gnu/12.3.0
+        Selected GCC installation: /nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib64/gcc/x86_64-unknown-linux-gnu/12.3.0
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         (in-process)
+         "/nix/store/pw7xsl0b4g7izz8hq2s5zkying2i7a4g-clang-16.0.6/bin/clang-16" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -fhalf-no-semantic-interposition -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/vvcaw/dev/i-tuirate/build/CMakeFiles/CMakeScratch/TryCompile-GvwlWg -nostdsysteminc -resource-dir /nix/store/d39m8arbjw7x079cvxf4xq6a1p9iql3q-clang-wrapper-16.0.6/resource-root -dependency-file CMakeFiles/cmTC_fca8f.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_fca8f.dir/CMakeCCompilerABI.c.o -sys-header-deps -idirafter /nix/store/zzwrkd2n3blr2m5ydm6236kbisvldj73-glibc-2.38-44-dev/include -isystem /nix/store/g3593hzaqlqj8iibwfjvzm1swvbc4nxp-spdlog-1.12.0-dev/include -isystem /nix/store/zpyxlp8ic075rvkpaddp9xl051imk0vl-fmt-10.1.1-dev/include -isystem /nix/store/1dbg11zhfwqvgm50bjwsgn67i6gydfgj-sqlitecpp-3.3.1/include -isystem /nix/store/g4snrralxm0hdf22a66gvi28i6d7f4hc-sqlite-3.43.2-dev/include -isystem /nix/store/8sxxbkylcw3l86gk8n8vh4b6r8hifd2r-ftxui-5.0.0/include -isystem /nix/store/xv8pl65cfynf00w90rf200qi2dxipp6g-compiler-rt-libc-16.0.6-dev/include -isystem /nix/store/g3593hzaqlqj8iibwfjvzm1swvbc4nxp-spdlog-1.12.0-dev/include -isystem /nix/store/zpyxlp8ic075rvkpaddp9xl051imk0vl-fmt-10.1.1-dev/include -isystem /nix/store/1dbg11zhfwqvgm50bjwsgn67i6gydfgj-sqlitecpp-3.3.1/include -isystem /nix/store/g4snrralxm0hdf22a66gvi28i6d7f4hc-sqlite-3.43.2-dev/include -isystem /nix/store/8sxxbkylcw3l86gk8n8vh4b6r8hifd2r-ftxui-5.0.0/include -isystem /nix/store/xv8pl65cfynf00w90rf200qi2dxipp6g-compiler-rt-libc-16.0.6-dev/include -U _FORTIFY_SOURCE -U _FORTIFY_SOURCE -D _FORTIFY_SOURCE=2 -internal-isystem /nix/store/d39m8arbjw7x079cvxf4xq6a1p9iql3q-clang-wrapper-16.0.6/resource-root/include -source-date-epoch 315532800 -O2 -Wformat -Wformat-security -Werror=format-security -fdebug-compilation-dir=/home/vvcaw/dev/i-tuirate/build/CMakeFiles/CMakeScratch/TryCompile-GvwlWg -ferror-limit 19 -fwrapv -stack-protector 2 -stack-protector-buffer-size 4 -fgnuc-version=4.2.1 -vectorize-loops -vectorize-slp -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_fca8f.dir/CMakeCCompilerABI.c.o -x c /nix/store/ih9mk4l2rr9sd10rkmyjm38fn2ysypl0-cmake-3.27.7/share/cmake-3.27/Modules/CMakeCCompilerABI.c
+        clang -cc1 version 16.0.6 based upon LLVM 16.0.6 default target x86_64-unknown-linux-gnu
+        ignoring duplicate directory "/nix/store/g3593hzaqlqj8iibwfjvzm1swvbc4nxp-spdlog-1.12.0-dev/include"
+        ignoring duplicate directory "/nix/store/zpyxlp8ic075rvkpaddp9xl051imk0vl-fmt-10.1.1-dev/include"
+        ignoring duplicate directory "/nix/store/1dbg11zhfwqvgm50bjwsgn67i6gydfgj-sqlitecpp-3.3.1/include"
+        ignoring duplicate directory "/nix/store/g4snrralxm0hdf22a66gvi28i6d7f4hc-sqlite-3.43.2-dev/include"
+        ignoring duplicate directory "/nix/store/8sxxbkylcw3l86gk8n8vh4b6r8hifd2r-ftxui-5.0.0/include"
+        ignoring duplicate directory "/nix/store/xv8pl65cfynf00w90rf200qi2dxipp6g-compiler-rt-libc-16.0.6-dev/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /nix/store/g3593hzaqlqj8iibwfjvzm1swvbc4nxp-spdlog-1.12.0-dev/include
+         /nix/store/zpyxlp8ic075rvkpaddp9xl051imk0vl-fmt-10.1.1-dev/include
+         /nix/store/1dbg11zhfwqvgm50bjwsgn67i6gydfgj-sqlitecpp-3.3.1/include
+         /nix/store/g4snrralxm0hdf22a66gvi28i6d7f4hc-sqlite-3.43.2-dev/include
+         /nix/store/8sxxbkylcw3l86gk8n8vh4b6r8hifd2r-ftxui-5.0.0/include
+         /nix/store/xv8pl65cfynf00w90rf200qi2dxipp6g-compiler-rt-libc-16.0.6-dev/include
+         /nix/store/d39m8arbjw7x079cvxf4xq6a1p9iql3q-clang-wrapper-16.0.6/resource-root/include
+         /nix/store/zzwrkd2n3blr2m5ydm6236kbisvldj73-glibc-2.38-44-dev/include
+        End of search list.
+        Linking C executable cmTC_fca8f
+        /nix/store/ih9mk4l2rr9sd10rkmyjm38fn2ysypl0-cmake-3.27.7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fca8f.dir/link.txt --verbose=1
+        /nix/store/d39m8arbjw7x079cvxf4xq6a1p9iql3q-clang-wrapper-16.0.6/bin/clang  -v CMakeFiles/cmTC_fca8f.dir/CMakeCCompilerABI.c.o -o cmTC_fca8f 
+        clang version 16.0.6
+        Target: x86_64-unknown-linux-gnu
+        Thread model: posix
+        InstalledDir: /nix/store/pw7xsl0b4g7izz8hq2s5zkying2i7a4g-clang-16.0.6/bin
+        Found candidate GCC installation: /nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib/gcc/x86_64-unknown-linux-gnu/12.3.0
+        Found candidate GCC installation: /nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib64/gcc/x86_64-unknown-linux-gnu/12.3.0
+        Selected GCC installation: /nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib64/gcc/x86_64-unknown-linux-gnu/12.3.0
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         "/nix/store/d39m8arbjw7x079cvxf4xq6a1p9iql3q-clang-wrapper-16.0.6/bin/ld" -pie --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -o cmTC_fca8f /nix/store/1zy01hjzwvvia6h9dq5xar88v77fgh9x-glibc-2.38-44/lib/Scrt1.o /nix/store/1zy01hjzwvvia6h9dq5xar88v77fgh9x-glibc-2.38-44/lib/crti.o /nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib/gcc/x86_64-unknown-linux-gnu/12.3.0/crtbeginS.o -L/nix/store/xf3358nrgph9mfkrf57jgvkqwja4in9r-fmt-10.1.1/lib -L/nix/store/pcxg1h9k3l67waslvj1namjwbf2l31xb-spdlog-1.12.0/lib -L/nix/store/1dbg11zhfwqvgm50bjwsgn67i6gydfgj-sqlitecpp-3.3.1/lib -L/nix/store/r6a0kxys5v75c7ha6cnm9zizr5255xjx-sqlite-3.43.2/lib -L/nix/store/8sxxbkylcw3l86gk8n8vh4b6r8hifd2r-ftxui-5.0.0/lib -L/nix/store/xf3358nrgph9mfkrf57jgvkqwja4in9r-fmt-10.1.1/lib -L/nix/store/pcxg1h9k3l67waslvj1namjwbf2l31xb-spdlog-1.12.0/lib -L/nix/store/1dbg11zhfwqvgm50bjwsgn67i6gydfgj-sqlitecpp-3.3.1/lib -L/nix/store/r6a0kxys5v75c7ha6cnm9zizr5255xjx-sqlite-3.43.2/lib -L/nix/store/8sxxbkylcw3l86gk8n8vh4b6r8hifd2r-ftxui-5.0.0/lib -L/nix/store/1zy01hjzwvvia6h9dq5xar88v77fgh9x-glibc-2.38-44/lib -L/nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib/gcc/x86_64-unknown-linux-gnu/12.3.0 -L/nix/store/a3zlvnswi1p8cg7i9w4lpnvaankc7dxx-gcc-12.3.0-lib/lib -L/nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0//lib -L/nix/store/l0ydz31lwa97zickpsxj2vmprcigh1m4-gcc-12.3.0-libgcc/lib -L/nix/store/nzfgg5hbc3v4qisqj0ah9wdrbfszgfin-clang-16.0.6-lib/lib -L/nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib64/gcc/x86_64-unknown-linux-gnu/12.3.0 -L/nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib64/gcc/x86_64-unknown-linux-gnu/12.3.0/../../../../lib64 -dynamic-linker=/nix/store/1zy01hjzwvvia6h9dq5xar88v77fgh9x-glibc-2.38-44/lib/ld-linux-x86-64.so.2 CMakeFiles/cmTC_fca8f.dir/CMakeCCompilerABI.c.o -rpath /home/vvcaw/dev/i-tuirate/outputs/out/lib -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib/gcc/x86_64-unknown-linux-gnu/12.3.0/crtendS.o /nix/store/1zy01hjzwvvia6h9dq5xar88v77fgh9x-glibc-2.38-44/lib/crtn.o
+        make[1]: Leaving directory '/home/vvcaw/dev/i-tuirate/build/CMakeFiles/CMakeScratch/TryCompile-GvwlWg'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/nix/store/ih9mk4l2rr9sd10rkmyjm38fn2ysypl0-cmake-3.27.7/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/nix/store/ih9mk4l2rr9sd10rkmyjm38fn2ysypl0-cmake-3.27.7/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/nix/store/g3593hzaqlqj8iibwfjvzm1swvbc4nxp-spdlog-1.12.0-dev/include]
+          add: [/nix/store/zpyxlp8ic075rvkpaddp9xl051imk0vl-fmt-10.1.1-dev/include]
+          add: [/nix/store/1dbg11zhfwqvgm50bjwsgn67i6gydfgj-sqlitecpp-3.3.1/include]
+          add: [/nix/store/g4snrralxm0hdf22a66gvi28i6d7f4hc-sqlite-3.43.2-dev/include]
+          add: [/nix/store/8sxxbkylcw3l86gk8n8vh4b6r8hifd2r-ftxui-5.0.0/include]
+          add: [/nix/store/xv8pl65cfynf00w90rf200qi2dxipp6g-compiler-rt-libc-16.0.6-dev/include]
+          add: [/nix/store/d39m8arbjw7x079cvxf4xq6a1p9iql3q-clang-wrapper-16.0.6/resource-root/include]
+          add: [/nix/store/zzwrkd2n3blr2m5ydm6236kbisvldj73-glibc-2.38-44-dev/include]
+        end of search list found
+        collapse include dir [/nix/store/g3593hzaqlqj8iibwfjvzm1swvbc4nxp-spdlog-1.12.0-dev/include] ==> [/nix/store/g3593hzaqlqj8iibwfjvzm1swvbc4nxp-spdlog-1.12.0-dev/include]
+        collapse include dir [/nix/store/zpyxlp8ic075rvkpaddp9xl051imk0vl-fmt-10.1.1-dev/include] ==> [/nix/store/zpyxlp8ic075rvkpaddp9xl051imk0vl-fmt-10.1.1-dev/include]
+        collapse include dir [/nix/store/1dbg11zhfwqvgm50bjwsgn67i6gydfgj-sqlitecpp-3.3.1/include] ==> [/nix/store/1dbg11zhfwqvgm50bjwsgn67i6gydfgj-sqlitecpp-3.3.1/include]
+        collapse include dir [/nix/store/g4snrralxm0hdf22a66gvi28i6d7f4hc-sqlite-3.43.2-dev/include] ==> [/nix/store/g4snrralxm0hdf22a66gvi28i6d7f4hc-sqlite-3.43.2-dev/include]
+        collapse include dir [/nix/store/8sxxbkylcw3l86gk8n8vh4b6r8hifd2r-ftxui-5.0.0/include] ==> [/nix/store/8sxxbkylcw3l86gk8n8vh4b6r8hifd2r-ftxui-5.0.0/include]
+        collapse include dir [/nix/store/xv8pl65cfynf00w90rf200qi2dxipp6g-compiler-rt-libc-16.0.6-dev/include] ==> [/nix/store/xv8pl65cfynf00w90rf200qi2dxipp6g-compiler-rt-libc-16.0.6-dev/include]
+        collapse include dir [/nix/store/d39m8arbjw7x079cvxf4xq6a1p9iql3q-clang-wrapper-16.0.6/resource-root/include] ==> [/nix/store/d39m8arbjw7x079cvxf4xq6a1p9iql3q-clang-wrapper-16.0.6/resource-root/include]
+        collapse include dir [/nix/store/zzwrkd2n3blr2m5ydm6236kbisvldj73-glibc-2.38-44-dev/include] ==> [/nix/store/zzwrkd2n3blr2m5ydm6236kbisvldj73-glibc-2.38-44-dev/include]
+        implicit include dirs: [/nix/store/g3593hzaqlqj8iibwfjvzm1swvbc4nxp-spdlog-1.12.0-dev/include;/nix/store/zpyxlp8ic075rvkpaddp9xl051imk0vl-fmt-10.1.1-dev/include;/nix/store/1dbg11zhfwqvgm50bjwsgn67i6gydfgj-sqlitecpp-3.3.1/include;/nix/store/g4snrralxm0hdf22a66gvi28i6d7f4hc-sqlite-3.43.2-dev/include;/nix/store/8sxxbkylcw3l86gk8n8vh4b6r8hifd2r-ftxui-5.0.0/include;/nix/store/xv8pl65cfynf00w90rf200qi2dxipp6g-compiler-rt-libc-16.0.6-dev/include;/nix/store/d39m8arbjw7x079cvxf4xq6a1p9iql3q-clang-wrapper-16.0.6/resource-root/include;/nix/store/zzwrkd2n3blr2m5ydm6236kbisvldj73-glibc-2.38-44-dev/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/nix/store/ih9mk4l2rr9sd10rkmyjm38fn2ysypl0-cmake-3.27.7/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/nix/store/ih9mk4l2rr9sd10rkmyjm38fn2ysypl0-cmake-3.27.7/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/home/vvcaw/dev/i-tuirate/build/CMakeFiles/CMakeScratch/TryCompile-GvwlWg']
+        ignore line: []
+        ignore line: [Run Build Command(s): /nix/store/ih9mk4l2rr9sd10rkmyjm38fn2ysypl0-cmake-3.27.7/bin/cmake -E env VERBOSE=1 /nix/store/5vyb54sgl2x1ihrdfvj46vi2w1acv9nn-gnumake-4.4.1/bin/make -f Makefile cmTC_fca8f/fast]
+        ignore line: [/nix/store/5vyb54sgl2x1ihrdfvj46vi2w1acv9nn-gnumake-4.4.1/bin/make  -f CMakeFiles/cmTC_fca8f.dir/build.make CMakeFiles/cmTC_fca8f.dir/build]
+        ignore line: [make[1]: Entering directory '/home/vvcaw/dev/i-tuirate/build/CMakeFiles/CMakeScratch/TryCompile-GvwlWg']
+        ignore line: [Building C object CMakeFiles/cmTC_fca8f.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/nix/store/d39m8arbjw7x079cvxf4xq6a1p9iql3q-clang-wrapper-16.0.6/bin/clang   -v -MD -MT CMakeFiles/cmTC_fca8f.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_fca8f.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_fca8f.dir/CMakeCCompilerABI.c.o -c /nix/store/ih9mk4l2rr9sd10rkmyjm38fn2ysypl0-cmake-3.27.7/share/cmake-3.27/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang version 16.0.6]
+        ignore line: [Target: x86_64-unknown-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /nix/store/pw7xsl0b4g7izz8hq2s5zkying2i7a4g-clang-16.0.6/bin]
+        ignore line: [Found candidate GCC installation: /nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib/gcc/x86_64-unknown-linux-gnu/12.3.0]
+        ignore line: [Found candidate GCC installation: /nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib64/gcc/x86_64-unknown-linux-gnu/12.3.0]
+        ignore line: [Selected GCC installation: /nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib64/gcc/x86_64-unknown-linux-gnu/12.3.0]
+        ignore line: [Candidate multilib: .]
+        ignore line: [@m64]
+        ignore line: [Selected multilib: .]
+        ignore line: [@m64]
+        ignore line: [ (in-process)]
+        ignore line: [ "/nix/store/pw7xsl0b4g7izz8hq2s5zkying2i7a4g-clang-16.0.6/bin/clang-16" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -fhalf-no-semantic-interposition -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/vvcaw/dev/i-tuirate/build/CMakeFiles/CMakeScratch/TryCompile-GvwlWg -nostdsysteminc -resource-dir /nix/store/d39m8arbjw7x079cvxf4xq6a1p9iql3q-clang-wrapper-16.0.6/resource-root -dependency-file CMakeFiles/cmTC_fca8f.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_fca8f.dir/CMakeCCompilerABI.c.o -sys-header-deps -idirafter /nix/store/zzwrkd2n3blr2m5ydm6236kbisvldj73-glibc-2.38-44-dev/include -isystem /nix/store/g3593hzaqlqj8iibwfjvzm1swvbc4nxp-spdlog-1.12.0-dev/include -isystem /nix/store/zpyxlp8ic075rvkpaddp9xl051imk0vl-fmt-10.1.1-dev/include -isystem /nix/store/1dbg11zhfwqvgm50bjwsgn67i6gydfgj-sqlitecpp-3.3.1/include -isystem /nix/store/g4snrralxm0hdf22a66gvi28i6d7f4hc-sqlite-3.43.2-dev/include -isystem /nix/store/8sxxbkylcw3l86gk8n8vh4b6r8hifd2r-ftxui-5.0.0/include -isystem /nix/store/xv8pl65cfynf00w90rf200qi2dxipp6g-compiler-rt-libc-16.0.6-dev/include -isystem /nix/store/g3593hzaqlqj8iibwfjvzm1swvbc4nxp-spdlog-1.12.0-dev/include -isystem /nix/store/zpyxlp8ic075rvkpaddp9xl051imk0vl-fmt-10.1.1-dev/include -isystem /nix/store/1dbg11zhfwqvgm50bjwsgn67i6gydfgj-sqlitecpp-3.3.1/include -isystem /nix/store/g4snrralxm0hdf22a66gvi28i6d7f4hc-sqlite-3.43.2-dev/include -isystem /nix/store/8sxxbkylcw3l86gk8n8vh4b6r8hifd2r-ftxui-5.0.0/include -isystem /nix/store/xv8pl65cfynf00w90rf200qi2dxipp6g-compiler-rt-libc-16.0.6-dev/include -U _FORTIFY_SOURCE -U _FORTIFY_SOURCE -D _FORTIFY_SOURCE=2 -internal-isystem /nix/store/d39m8arbjw7x079cvxf4xq6a1p9iql3q-clang-wrapper-16.0.6/resource-root/include -source-date-epoch 315532800 -O2 -Wformat -Wformat-security -Werror=format-security -fdebug-compilation-dir=/home/vvcaw/dev/i-tuirate/build/CMakeFiles/CMakeScratch/TryCompile-GvwlWg -ferror-limit 19 -fwrapv -stack-protector 2 -stack-protector-buffer-size 4 -fgnuc-version=4.2.1 -vectorize-loops -vectorize-slp -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_fca8f.dir/CMakeCCompilerABI.c.o -x c /nix/store/ih9mk4l2rr9sd10rkmyjm38fn2ysypl0-cmake-3.27.7/share/cmake-3.27/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang -cc1 version 16.0.6 based upon LLVM 16.0.6 default target x86_64-unknown-linux-gnu]
+        ignore line: [ignoring duplicate directory "/nix/store/g3593hzaqlqj8iibwfjvzm1swvbc4nxp-spdlog-1.12.0-dev/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/zpyxlp8ic075rvkpaddp9xl051imk0vl-fmt-10.1.1-dev/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/1dbg11zhfwqvgm50bjwsgn67i6gydfgj-sqlitecpp-3.3.1/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/g4snrralxm0hdf22a66gvi28i6d7f4hc-sqlite-3.43.2-dev/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/8sxxbkylcw3l86gk8n8vh4b6r8hifd2r-ftxui-5.0.0/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/xv8pl65cfynf00w90rf200qi2dxipp6g-compiler-rt-libc-16.0.6-dev/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /nix/store/g3593hzaqlqj8iibwfjvzm1swvbc4nxp-spdlog-1.12.0-dev/include]
+        ignore line: [ /nix/store/zpyxlp8ic075rvkpaddp9xl051imk0vl-fmt-10.1.1-dev/include]
+        ignore line: [ /nix/store/1dbg11zhfwqvgm50bjwsgn67i6gydfgj-sqlitecpp-3.3.1/include]
+        ignore line: [ /nix/store/g4snrralxm0hdf22a66gvi28i6d7f4hc-sqlite-3.43.2-dev/include]
+        ignore line: [ /nix/store/8sxxbkylcw3l86gk8n8vh4b6r8hifd2r-ftxui-5.0.0/include]
+        ignore line: [ /nix/store/xv8pl65cfynf00w90rf200qi2dxipp6g-compiler-rt-libc-16.0.6-dev/include]
+        ignore line: [ /nix/store/d39m8arbjw7x079cvxf4xq6a1p9iql3q-clang-wrapper-16.0.6/resource-root/include]
+        ignore line: [ /nix/store/zzwrkd2n3blr2m5ydm6236kbisvldj73-glibc-2.38-44-dev/include]
+        ignore line: [End of search list.]
+        ignore line: [Linking C executable cmTC_fca8f]
+        ignore line: [/nix/store/ih9mk4l2rr9sd10rkmyjm38fn2ysypl0-cmake-3.27.7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fca8f.dir/link.txt --verbose=1]
+        ignore line: [/nix/store/d39m8arbjw7x079cvxf4xq6a1p9iql3q-clang-wrapper-16.0.6/bin/clang  -v CMakeFiles/cmTC_fca8f.dir/CMakeCCompilerABI.c.o -o cmTC_fca8f ]
+        ignore line: [clang version 16.0.6]
+        ignore line: [Target: x86_64-unknown-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /nix/store/pw7xsl0b4g7izz8hq2s5zkying2i7a4g-clang-16.0.6/bin]
+        ignore line: [Found candidate GCC installation: /nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib/gcc/x86_64-unknown-linux-gnu/12.3.0]
+        ignore line: [Found candidate GCC installation: /nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib64/gcc/x86_64-unknown-linux-gnu/12.3.0]
+        ignore line: [Selected GCC installation: /nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib64/gcc/x86_64-unknown-linux-gnu/12.3.0]
+        ignore line: [Candidate multilib: .]
+        ignore line: [@m64]
+        ignore line: [Selected multilib: .]
+        ignore line: [@m64]
+        link line: [ "/nix/store/d39m8arbjw7x079cvxf4xq6a1p9iql3q-clang-wrapper-16.0.6/bin/ld" -pie --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -o cmTC_fca8f /nix/store/1zy01hjzwvvia6h9dq5xar88v77fgh9x-glibc-2.38-44/lib/Scrt1.o /nix/store/1zy01hjzwvvia6h9dq5xar88v77fgh9x-glibc-2.38-44/lib/crti.o /nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib/gcc/x86_64-unknown-linux-gnu/12.3.0/crtbeginS.o -L/nix/store/xf3358nrgph9mfkrf57jgvkqwja4in9r-fmt-10.1.1/lib -L/nix/store/pcxg1h9k3l67waslvj1namjwbf2l31xb-spdlog-1.12.0/lib -L/nix/store/1dbg11zhfwqvgm50bjwsgn67i6gydfgj-sqlitecpp-3.3.1/lib -L/nix/store/r6a0kxys5v75c7ha6cnm9zizr5255xjx-sqlite-3.43.2/lib -L/nix/store/8sxxbkylcw3l86gk8n8vh4b6r8hifd2r-ftxui-5.0.0/lib -L/nix/store/xf3358nrgph9mfkrf57jgvkqwja4in9r-fmt-10.1.1/lib -L/nix/store/pcxg1h9k3l67waslvj1namjwbf2l31xb-spdlog-1.12.0/lib -L/nix/store/1dbg11zhfwqvgm50bjwsgn67i6gydfgj-sqlitecpp-3.3.1/lib -L/nix/store/r6a0kxys5v75c7ha6cnm9zizr5255xjx-sqlite-3.43.2/lib -L/nix/store/8sxxbkylcw3l86gk8n8vh4b6r8hifd2r-ftxui-5.0.0/lib -L/nix/store/1zy01hjzwvvia6h9dq5xar88v77fgh9x-glibc-2.38-44/lib -L/nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib/gcc/x86_64-unknown-linux-gnu/12.3.0 -L/nix/store/a3zlvnswi1p8cg7i9w4lpnvaankc7dxx-gcc-12.3.0-lib/lib -L/nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0//lib -L/nix/store/l0ydz31lwa97zickpsxj2vmprcigh1m4-gcc-12.3.0-libgcc/lib -L/nix/store/nzfgg5hbc3v4qisqj0ah9wdrbfszgfin-clang-16.0.6-lib/lib -L/nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib64/gcc/x86_64-unknown-linux-gnu/12.3.0 -L/nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib64/gcc/x86_64-unknown-linux-gnu/12.3.0/../../../../lib64 -dynamic-linker=/nix/store/1zy01hjzwvvia6h9dq5xar88v77fgh9x-glibc-2.38-44/lib/ld-linux-x86-64.so.2 CMakeFiles/cmTC_fca8f.dir/CMakeCCompilerABI.c.o -rpath /home/vvcaw/dev/i-tuirate/outputs/out/lib -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib/gcc/x86_64-unknown-linux-gnu/12.3.0/crtendS.o /nix/store/1zy01hjzwvvia6h9dq5xar88v77fgh9x-glibc-2.38-44/lib/crtn.o]
+          arg [/nix/store/d39m8arbjw7x079cvxf4xq6a1p9iql3q-clang-wrapper-16.0.6/bin/ld] ==> ignore
+          arg [-pie] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_fca8f] ==> ignore
+          arg [/nix/store/1zy01hjzwvvia6h9dq5xar88v77fgh9x-glibc-2.38-44/lib/Scrt1.o] ==> obj [/nix/store/1zy01hjzwvvia6h9dq5xar88v77fgh9x-glibc-2.38-44/lib/Scrt1.o]
+          arg [/nix/store/1zy01hjzwvvia6h9dq5xar88v77fgh9x-glibc-2.38-44/lib/crti.o] ==> obj [/nix/store/1zy01hjzwvvia6h9dq5xar88v77fgh9x-glibc-2.38-44/lib/crti.o]
+          arg [/nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib/gcc/x86_64-unknown-linux-gnu/12.3.0/crtbeginS.o] ==> obj [/nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib/gcc/x86_64-unknown-linux-gnu/12.3.0/crtbeginS.o]
+          arg [-L/nix/store/xf3358nrgph9mfkrf57jgvkqwja4in9r-fmt-10.1.1/lib] ==> dir [/nix/store/xf3358nrgph9mfkrf57jgvkqwja4in9r-fmt-10.1.1/lib]
+          arg [-L/nix/store/pcxg1h9k3l67waslvj1namjwbf2l31xb-spdlog-1.12.0/lib] ==> dir [/nix/store/pcxg1h9k3l67waslvj1namjwbf2l31xb-spdlog-1.12.0/lib]
+          arg [-L/nix/store/1dbg11zhfwqvgm50bjwsgn67i6gydfgj-sqlitecpp-3.3.1/lib] ==> dir [/nix/store/1dbg11zhfwqvgm50bjwsgn67i6gydfgj-sqlitecpp-3.3.1/lib]
+          arg [-L/nix/store/r6a0kxys5v75c7ha6cnm9zizr5255xjx-sqlite-3.43.2/lib] ==> dir [/nix/store/r6a0kxys5v75c7ha6cnm9zizr5255xjx-sqlite-3.43.2/lib]
+          arg [-L/nix/store/8sxxbkylcw3l86gk8n8vh4b6r8hifd2r-ftxui-5.0.0/lib] ==> dir [/nix/store/8sxxbkylcw3l86gk8n8vh4b6r8hifd2r-ftxui-5.0.0/lib]
+          arg [-L/nix/store/xf3358nrgph9mfkrf57jgvkqwja4in9r-fmt-10.1.1/lib] ==> dir [/nix/store/xf3358nrgph9mfkrf57jgvkqwja4in9r-fmt-10.1.1/lib]
+          arg [-L/nix/store/pcxg1h9k3l67waslvj1namjwbf2l31xb-spdlog-1.12.0/lib] ==> dir [/nix/store/pcxg1h9k3l67waslvj1namjwbf2l31xb-spdlog-1.12.0/lib]
+          arg [-L/nix/store/1dbg11zhfwqvgm50bjwsgn67i6gydfgj-sqlitecpp-3.3.1/lib] ==> dir [/nix/store/1dbg11zhfwqvgm50bjwsgn67i6gydfgj-sqlitecpp-3.3.1/lib]
+          arg [-L/nix/store/r6a0kxys5v75c7ha6cnm9zizr5255xjx-sqlite-3.43.2/lib] ==> dir [/nix/store/r6a0kxys5v75c7ha6cnm9zizr5255xjx-sqlite-3.43.2/lib]
+          arg [-L/nix/store/8sxxbkylcw3l86gk8n8vh4b6r8hifd2r-ftxui-5.0.0/lib] ==> dir [/nix/store/8sxxbkylcw3l86gk8n8vh4b6r8hifd2r-ftxui-5.0.0/lib]
+          arg [-L/nix/store/1zy01hjzwvvia6h9dq5xar88v77fgh9x-glibc-2.38-44/lib] ==> dir [/nix/store/1zy01hjzwvvia6h9dq5xar88v77fgh9x-glibc-2.38-44/lib]
+          arg [-L/nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib/gcc/x86_64-unknown-linux-gnu/12.3.0] ==> dir [/nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib/gcc/x86_64-unknown-linux-gnu/12.3.0]
+          arg [-L/nix/store/a3zlvnswi1p8cg7i9w4lpnvaankc7dxx-gcc-12.3.0-lib/lib] ==> dir [/nix/store/a3zlvnswi1p8cg7i9w4lpnvaankc7dxx-gcc-12.3.0-lib/lib]
+          arg [-L/nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0//lib] ==> dir [/nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0//lib]
+          arg [-L/nix/store/l0ydz31lwa97zickpsxj2vmprcigh1m4-gcc-12.3.0-libgcc/lib] ==> dir [/nix/store/l0ydz31lwa97zickpsxj2vmprcigh1m4-gcc-12.3.0-libgcc/lib]
+          arg [-L/nix/store/nzfgg5hbc3v4qisqj0ah9wdrbfszgfin-clang-16.0.6-lib/lib] ==> dir [/nix/store/nzfgg5hbc3v4qisqj0ah9wdrbfszgfin-clang-16.0.6-lib/lib]
+          arg [-L/nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib64/gcc/x86_64-unknown-linux-gnu/12.3.0] ==> dir [/nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib64/gcc/x86_64-unknown-linux-gnu/12.3.0]
+          arg [-L/nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib64/gcc/x86_64-unknown-linux-gnu/12.3.0/../../../../lib64] ==> dir [/nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib64/gcc/x86_64-unknown-linux-gnu/12.3.0/../../../../lib64]
+          arg [-dynamic-linker=/nix/store/1zy01hjzwvvia6h9dq5xar88v77fgh9x-glibc-2.38-44/lib/ld-linux-x86-64.so.2] ==> ignore
+          arg [CMakeFiles/cmTC_fca8f.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-rpath] ==> ignore
+          arg [/home/vvcaw/dev/i-tuirate/outputs/out/lib] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--no-as-needed] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--no-as-needed] ==> ignore
+          arg [/nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib/gcc/x86_64-unknown-linux-gnu/12.3.0/crtendS.o] ==> obj [/nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib/gcc/x86_64-unknown-linux-gnu/12.3.0/crtendS.o]
+          arg [/nix/store/1zy01hjzwvvia6h9dq5xar88v77fgh9x-glibc-2.38-44/lib/crtn.o] ==> obj [/nix/store/1zy01hjzwvvia6h9dq5xar88v77fgh9x-glibc-2.38-44/lib/crtn.o]
+        collapse library dir [/nix/store/xf3358nrgph9mfkrf57jgvkqwja4in9r-fmt-10.1.1/lib] ==> [/nix/store/xf3358nrgph9mfkrf57jgvkqwja4in9r-fmt-10.1.1/lib]
+        collapse library dir [/nix/store/pcxg1h9k3l67waslvj1namjwbf2l31xb-spdlog-1.12.0/lib] ==> [/nix/store/pcxg1h9k3l67waslvj1namjwbf2l31xb-spdlog-1.12.0/lib]
+        collapse library dir [/nix/store/1dbg11zhfwqvgm50bjwsgn67i6gydfgj-sqlitecpp-3.3.1/lib] ==> [/nix/store/1dbg11zhfwqvgm50bjwsgn67i6gydfgj-sqlitecpp-3.3.1/lib]
+        collapse library dir [/nix/store/r6a0kxys5v75c7ha6cnm9zizr5255xjx-sqlite-3.43.2/lib] ==> [/nix/store/r6a0kxys5v75c7ha6cnm9zizr5255xjx-sqlite-3.43.2/lib]
+        collapse library dir [/nix/store/8sxxbkylcw3l86gk8n8vh4b6r8hifd2r-ftxui-5.0.0/lib] ==> [/nix/store/8sxxbkylcw3l86gk8n8vh4b6r8hifd2r-ftxui-5.0.0/lib]
+        collapse library dir [/nix/store/xf3358nrgph9mfkrf57jgvkqwja4in9r-fmt-10.1.1/lib] ==> [/nix/store/xf3358nrgph9mfkrf57jgvkqwja4in9r-fmt-10.1.1/lib]
+        collapse library dir [/nix/store/pcxg1h9k3l67waslvj1namjwbf2l31xb-spdlog-1.12.0/lib] ==> [/nix/store/pcxg1h9k3l67waslvj1namjwbf2l31xb-spdlog-1.12.0/lib]
+        collapse library dir [/nix/store/1dbg11zhfwqvgm50bjwsgn67i6gydfgj-sqlitecpp-3.3.1/lib] ==> [/nix/store/1dbg11zhfwqvgm50bjwsgn67i6gydfgj-sqlitecpp-3.3.1/lib]
+        collapse library dir [/nix/store/r6a0kxys5v75c7ha6cnm9zizr5255xjx-sqlite-3.43.2/lib] ==> [/nix/store/r6a0kxys5v75c7ha6cnm9zizr5255xjx-sqlite-3.43.2/lib]
+        collapse library dir [/nix/store/8sxxbkylcw3l86gk8n8vh4b6r8hifd2r-ftxui-5.0.0/lib] ==> [/nix/store/8sxxbkylcw3l86gk8n8vh4b6r8hifd2r-ftxui-5.0.0/lib]
+        collapse library dir [/nix/store/1zy01hjzwvvia6h9dq5xar88v77fgh9x-glibc-2.38-44/lib] ==> [/nix/store/1zy01hjzwvvia6h9dq5xar88v77fgh9x-glibc-2.38-44/lib]
+        collapse library dir [/nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib/gcc/x86_64-unknown-linux-gnu/12.3.0] ==> [/nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib/gcc/x86_64-unknown-linux-gnu/12.3.0]
+        collapse library dir [/nix/store/a3zlvnswi1p8cg7i9w4lpnvaankc7dxx-gcc-12.3.0-lib/lib] ==> [/nix/store/a3zlvnswi1p8cg7i9w4lpnvaankc7dxx-gcc-12.3.0-lib/lib]
+        collapse library dir [/nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0//lib] ==> [/nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib]
+        collapse library dir [/nix/store/l0ydz31lwa97zickpsxj2vmprcigh1m4-gcc-12.3.0-libgcc/lib] ==> [/nix/store/l0ydz31lwa97zickpsxj2vmprcigh1m4-gcc-12.3.0-libgcc/lib]
+        collapse library dir [/nix/store/nzfgg5hbc3v4qisqj0ah9wdrbfszgfin-clang-16.0.6-lib/lib] ==> [/nix/store/nzfgg5hbc3v4qisqj0ah9wdrbfszgfin-clang-16.0.6-lib/lib]
+        collapse library dir [/nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib64/gcc/x86_64-unknown-linux-gnu/12.3.0] ==> [/nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib64/gcc/x86_64-unknown-linux-gnu/12.3.0]
+        collapse library dir [/nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib64/gcc/x86_64-unknown-linux-gnu/12.3.0/../../../../lib64] ==> [/nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib64]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/nix/store/1zy01hjzwvvia6h9dq5xar88v77fgh9x-glibc-2.38-44/lib/Scrt1.o;/nix/store/1zy01hjzwvvia6h9dq5xar88v77fgh9x-glibc-2.38-44/lib/crti.o;/nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib/gcc/x86_64-unknown-linux-gnu/12.3.0/crtbeginS.o;/nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib/gcc/x86_64-unknown-linux-gnu/12.3.0/crtendS.o;/nix/store/1zy01hjzwvvia6h9dq5xar88v77fgh9x-glibc-2.38-44/lib/crtn.o]
+        implicit dirs: [/nix/store/xf3358nrgph9mfkrf57jgvkqwja4in9r-fmt-10.1.1/lib;/nix/store/pcxg1h9k3l67waslvj1namjwbf2l31xb-spdlog-1.12.0/lib;/nix/store/1dbg11zhfwqvgm50bjwsgn67i6gydfgj-sqlitecpp-3.3.1/lib;/nix/store/r6a0kxys5v75c7ha6cnm9zizr5255xjx-sqlite-3.43.2/lib;/nix/store/8sxxbkylcw3l86gk8n8vh4b6r8hifd2r-ftxui-5.0.0/lib;/nix/store/1zy01hjzwvvia6h9dq5xar88v77fgh9x-glibc-2.38-44/lib;/nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib/gcc/x86_64-unknown-linux-gnu/12.3.0;/nix/store/a3zlvnswi1p8cg7i9w4lpnvaankc7dxx-gcc-12.3.0-lib/lib;/nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib;/nix/store/l0ydz31lwa97zickpsxj2vmprcigh1m4-gcc-12.3.0-libgcc/lib;/nix/store/nzfgg5hbc3v4qisqj0ah9wdrbfszgfin-clang-16.0.6-lib/lib;/nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib64/gcc/x86_64-unknown-linux-gnu/12.3.0;/nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib64]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/nix/store/ih9mk4l2rr9sd10rkmyjm38fn2ysypl0-cmake-3.27.7/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/nix/store/ih9mk4l2rr9sd10rkmyjm38fn2ysypl0-cmake-3.27.7/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/vvcaw/dev/i-tuirate/build/CMakeFiles/CMakeScratch/TryCompile-sQfyFz"
+      binary: "/home/vvcaw/dev/i-tuirate/build/CMakeFiles/CMakeScratch/TryCompile-sQfyFz"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/vvcaw/dev/i-tuirate/build/CMakeFiles/CMakeScratch/TryCompile-sQfyFz'
+        
+        Run Build Command(s): /nix/store/ih9mk4l2rr9sd10rkmyjm38fn2ysypl0-cmake-3.27.7/bin/cmake -E env VERBOSE=1 /nix/store/5vyb54sgl2x1ihrdfvj46vi2w1acv9nn-gnumake-4.4.1/bin/make -f Makefile cmTC_085a6/fast
+        /nix/store/5vyb54sgl2x1ihrdfvj46vi2w1acv9nn-gnumake-4.4.1/bin/make  -f CMakeFiles/cmTC_085a6.dir/build.make CMakeFiles/cmTC_085a6.dir/build
+        make[1]: Entering directory '/home/vvcaw/dev/i-tuirate/build/CMakeFiles/CMakeScratch/TryCompile-sQfyFz'
+        Building CXX object CMakeFiles/cmTC_085a6.dir/CMakeCXXCompilerABI.cpp.o
+        /nix/store/d39m8arbjw7x079cvxf4xq6a1p9iql3q-clang-wrapper-16.0.6/bin/clang++   -std=gnu++20   -v -MD -MT CMakeFiles/cmTC_085a6.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_085a6.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_085a6.dir/CMakeCXXCompilerABI.cpp.o -c /nix/store/ih9mk4l2rr9sd10rkmyjm38fn2ysypl0-cmake-3.27.7/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp
+        clang version 16.0.6
+        Target: x86_64-unknown-linux-gnu
+        Thread model: posix
+        InstalledDir: /nix/store/pw7xsl0b4g7izz8hq2s5zkying2i7a4g-clang-16.0.6/bin
+        Found candidate GCC installation: /nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib/gcc/x86_64-unknown-linux-gnu/12.3.0
+        Found candidate GCC installation: /nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib64/gcc/x86_64-unknown-linux-gnu/12.3.0
+        Selected GCC installation: /nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib64/gcc/x86_64-unknown-linux-gnu/12.3.0
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         (in-process)
+         "/nix/store/pw7xsl0b4g7izz8hq2s5zkying2i7a4g-clang-16.0.6/bin/clang-16" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -fhalf-no-semantic-interposition -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/vvcaw/dev/i-tuirate/build/CMakeFiles/CMakeScratch/TryCompile-sQfyFz -nostdsysteminc -resource-dir /nix/store/d39m8arbjw7x079cvxf4xq6a1p9iql3q-clang-wrapper-16.0.6/resource-root -dependency-file CMakeFiles/cmTC_085a6.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_085a6.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -idirafter /nix/store/zzwrkd2n3blr2m5ydm6236kbisvldj73-glibc-2.38-44-dev/include -isystem /nix/store/g3593hzaqlqj8iibwfjvzm1swvbc4nxp-spdlog-1.12.0-dev/include -isystem /nix/store/zpyxlp8ic075rvkpaddp9xl051imk0vl-fmt-10.1.1-dev/include -isystem /nix/store/1dbg11zhfwqvgm50bjwsgn67i6gydfgj-sqlitecpp-3.3.1/include -isystem /nix/store/g4snrralxm0hdf22a66gvi28i6d7f4hc-sqlite-3.43.2-dev/include -isystem /nix/store/8sxxbkylcw3l86gk8n8vh4b6r8hifd2r-ftxui-5.0.0/include -isystem /nix/store/xv8pl65cfynf00w90rf200qi2dxipp6g-compiler-rt-libc-16.0.6-dev/include -isystem /nix/store/g3593hzaqlqj8iibwfjvzm1swvbc4nxp-spdlog-1.12.0-dev/include -isystem /nix/store/zpyxlp8ic075rvkpaddp9xl051imk0vl-fmt-10.1.1-dev/include -isystem /nix/store/1dbg11zhfwqvgm50bjwsgn67i6gydfgj-sqlitecpp-3.3.1/include -isystem /nix/store/g4snrralxm0hdf22a66gvi28i6d7f4hc-sqlite-3.43.2-dev/include -isystem /nix/store/8sxxbkylcw3l86gk8n8vh4b6r8hifd2r-ftxui-5.0.0/include -isystem /nix/store/xv8pl65cfynf00w90rf200qi2dxipp6g-compiler-rt-libc-16.0.6-dev/include -isystem /nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/include/c++/12.3.0 -isystem /nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/include/c++/12.3.0/x86_64-unknown-linux-gnu -U _FORTIFY_SOURCE -U _FORTIFY_SOURCE -D _FORTIFY_SOURCE=2 -internal-isystem /nix/store/d39m8arbjw7x079cvxf4xq6a1p9iql3q-clang-wrapper-16.0.6/resource-root/include -source-date-epoch 315532800 -O2 -Wformat -Wformat-security -Werror=format-security -std=gnu++20 -fdeprecated-macro -fdebug-compilation-dir=/home/vvcaw/dev/i-tuirate/build/CMakeFiles/CMakeScratch/TryCompile-sQfyFz -ferror-limit 19 -fwrapv -stack-protector 2 -stack-protector-buffer-size 4 -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -vectorize-loops -vectorize-slp -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_085a6.dir/CMakeCXXCompilerABI.cpp.o -x c++ /nix/store/ih9mk4l2rr9sd10rkmyjm38fn2ysypl0-cmake-3.27.7/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 16.0.6 based upon LLVM 16.0.6 default target x86_64-unknown-linux-gnu
+        ignoring duplicate directory "/nix/store/g3593hzaqlqj8iibwfjvzm1swvbc4nxp-spdlog-1.12.0-dev/include"
+        ignoring duplicate directory "/nix/store/zpyxlp8ic075rvkpaddp9xl051imk0vl-fmt-10.1.1-dev/include"
+        ignoring duplicate directory "/nix/store/1dbg11zhfwqvgm50bjwsgn67i6gydfgj-sqlitecpp-3.3.1/include"
+        ignoring duplicate directory "/nix/store/g4snrralxm0hdf22a66gvi28i6d7f4hc-sqlite-3.43.2-dev/include"
+        ignoring duplicate directory "/nix/store/8sxxbkylcw3l86gk8n8vh4b6r8hifd2r-ftxui-5.0.0/include"
+        ignoring duplicate directory "/nix/store/xv8pl65cfynf00w90rf200qi2dxipp6g-compiler-rt-libc-16.0.6-dev/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /nix/store/g3593hzaqlqj8iibwfjvzm1swvbc4nxp-spdlog-1.12.0-dev/include
+         /nix/store/zpyxlp8ic075rvkpaddp9xl051imk0vl-fmt-10.1.1-dev/include
+         /nix/store/1dbg11zhfwqvgm50bjwsgn67i6gydfgj-sqlitecpp-3.3.1/include
+         /nix/store/g4snrralxm0hdf22a66gvi28i6d7f4hc-sqlite-3.43.2-dev/include
+         /nix/store/8sxxbkylcw3l86gk8n8vh4b6r8hifd2r-ftxui-5.0.0/include
+         /nix/store/xv8pl65cfynf00w90rf200qi2dxipp6g-compiler-rt-libc-16.0.6-dev/include
+         /nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/include/c++/12.3.0
+         /nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/include/c++/12.3.0/x86_64-unknown-linux-gnu
+         /nix/store/d39m8arbjw7x079cvxf4xq6a1p9iql3q-clang-wrapper-16.0.6/resource-root/include
+         /nix/store/zzwrkd2n3blr2m5ydm6236kbisvldj73-glibc-2.38-44-dev/include
+        End of search list.
+        Linking CXX executable cmTC_085a6
+        /nix/store/ih9mk4l2rr9sd10rkmyjm38fn2ysypl0-cmake-3.27.7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_085a6.dir/link.txt --verbose=1
+        /nix/store/d39m8arbjw7x079cvxf4xq6a1p9iql3q-clang-wrapper-16.0.6/bin/clang++  -v CMakeFiles/cmTC_085a6.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_085a6 
+        clang version 16.0.6
+        Target: x86_64-unknown-linux-gnu
+        Thread model: posix
+        InstalledDir: /nix/store/pw7xsl0b4g7izz8hq2s5zkying2i7a4g-clang-16.0.6/bin
+        Found candidate GCC installation: /nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib/gcc/x86_64-unknown-linux-gnu/12.3.0
+        Found candidate GCC installation: /nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib64/gcc/x86_64-unknown-linux-gnu/12.3.0
+        Selected GCC installation: /nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib64/gcc/x86_64-unknown-linux-gnu/12.3.0
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         "/nix/store/d39m8arbjw7x079cvxf4xq6a1p9iql3q-clang-wrapper-16.0.6/bin/ld" -pie --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -o cmTC_085a6 /nix/store/1zy01hjzwvvia6h9dq5xar88v77fgh9x-glibc-2.38-44/lib/Scrt1.o /nix/store/1zy01hjzwvvia6h9dq5xar88v77fgh9x-glibc-2.38-44/lib/crti.o /nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib/gcc/x86_64-unknown-linux-gnu/12.3.0/crtbeginS.o -L/nix/store/xf3358nrgph9mfkrf57jgvkqwja4in9r-fmt-10.1.1/lib -L/nix/store/pcxg1h9k3l67waslvj1namjwbf2l31xb-spdlog-1.12.0/lib -L/nix/store/1dbg11zhfwqvgm50bjwsgn67i6gydfgj-sqlitecpp-3.3.1/lib -L/nix/store/r6a0kxys5v75c7ha6cnm9zizr5255xjx-sqlite-3.43.2/lib -L/nix/store/8sxxbkylcw3l86gk8n8vh4b6r8hifd2r-ftxui-5.0.0/lib -L/nix/store/xf3358nrgph9mfkrf57jgvkqwja4in9r-fmt-10.1.1/lib -L/nix/store/pcxg1h9k3l67waslvj1namjwbf2l31xb-spdlog-1.12.0/lib -L/nix/store/1dbg11zhfwqvgm50bjwsgn67i6gydfgj-sqlitecpp-3.3.1/lib -L/nix/store/r6a0kxys5v75c7ha6cnm9zizr5255xjx-sqlite-3.43.2/lib -L/nix/store/8sxxbkylcw3l86gk8n8vh4b6r8hifd2r-ftxui-5.0.0/lib -L/nix/store/1zy01hjzwvvia6h9dq5xar88v77fgh9x-glibc-2.38-44/lib -L/nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib/gcc/x86_64-unknown-linux-gnu/12.3.0 -L/nix/store/a3zlvnswi1p8cg7i9w4lpnvaankc7dxx-gcc-12.3.0-lib/lib -L/nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0//lib -L/nix/store/l0ydz31lwa97zickpsxj2vmprcigh1m4-gcc-12.3.0-libgcc/lib -L/nix/store/nzfgg5hbc3v4qisqj0ah9wdrbfszgfin-clang-16.0.6-lib/lib -L/nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib64/gcc/x86_64-unknown-linux-gnu/12.3.0 -L/nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib64/gcc/x86_64-unknown-linux-gnu/12.3.0/../../../../lib64 -dynamic-linker=/nix/store/1zy01hjzwvvia6h9dq5xar88v77fgh9x-glibc-2.38-44/lib/ld-linux-x86-64.so.2 CMakeFiles/cmTC_085a6.dir/CMakeCXXCompilerABI.cpp.o -rpath /home/vvcaw/dev/i-tuirate/outputs/out/lib -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib/gcc/x86_64-unknown-linux-gnu/12.3.0/crtendS.o /nix/store/1zy01hjzwvvia6h9dq5xar88v77fgh9x-glibc-2.38-44/lib/crtn.o
+        make[1]: Leaving directory '/home/vvcaw/dev/i-tuirate/build/CMakeFiles/CMakeScratch/TryCompile-sQfyFz'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/nix/store/ih9mk4l2rr9sd10rkmyjm38fn2ysypl0-cmake-3.27.7/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/nix/store/ih9mk4l2rr9sd10rkmyjm38fn2ysypl0-cmake-3.27.7/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/nix/store/g3593hzaqlqj8iibwfjvzm1swvbc4nxp-spdlog-1.12.0-dev/include]
+          add: [/nix/store/zpyxlp8ic075rvkpaddp9xl051imk0vl-fmt-10.1.1-dev/include]
+          add: [/nix/store/1dbg11zhfwqvgm50bjwsgn67i6gydfgj-sqlitecpp-3.3.1/include]
+          add: [/nix/store/g4snrralxm0hdf22a66gvi28i6d7f4hc-sqlite-3.43.2-dev/include]
+          add: [/nix/store/8sxxbkylcw3l86gk8n8vh4b6r8hifd2r-ftxui-5.0.0/include]
+          add: [/nix/store/xv8pl65cfynf00w90rf200qi2dxipp6g-compiler-rt-libc-16.0.6-dev/include]
+          add: [/nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/include/c++/12.3.0]
+          add: [/nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/include/c++/12.3.0/x86_64-unknown-linux-gnu]
+          add: [/nix/store/d39m8arbjw7x079cvxf4xq6a1p9iql3q-clang-wrapper-16.0.6/resource-root/include]
+          add: [/nix/store/zzwrkd2n3blr2m5ydm6236kbisvldj73-glibc-2.38-44-dev/include]
+        end of search list found
+        collapse include dir [/nix/store/g3593hzaqlqj8iibwfjvzm1swvbc4nxp-spdlog-1.12.0-dev/include] ==> [/nix/store/g3593hzaqlqj8iibwfjvzm1swvbc4nxp-spdlog-1.12.0-dev/include]
+        collapse include dir [/nix/store/zpyxlp8ic075rvkpaddp9xl051imk0vl-fmt-10.1.1-dev/include] ==> [/nix/store/zpyxlp8ic075rvkpaddp9xl051imk0vl-fmt-10.1.1-dev/include]
+        collapse include dir [/nix/store/1dbg11zhfwqvgm50bjwsgn67i6gydfgj-sqlitecpp-3.3.1/include] ==> [/nix/store/1dbg11zhfwqvgm50bjwsgn67i6gydfgj-sqlitecpp-3.3.1/include]
+        collapse include dir [/nix/store/g4snrralxm0hdf22a66gvi28i6d7f4hc-sqlite-3.43.2-dev/include] ==> [/nix/store/g4snrralxm0hdf22a66gvi28i6d7f4hc-sqlite-3.43.2-dev/include]
+        collapse include dir [/nix/store/8sxxbkylcw3l86gk8n8vh4b6r8hifd2r-ftxui-5.0.0/include] ==> [/nix/store/8sxxbkylcw3l86gk8n8vh4b6r8hifd2r-ftxui-5.0.0/include]
+        collapse include dir [/nix/store/xv8pl65cfynf00w90rf200qi2dxipp6g-compiler-rt-libc-16.0.6-dev/include] ==> [/nix/store/xv8pl65cfynf00w90rf200qi2dxipp6g-compiler-rt-libc-16.0.6-dev/include]
+        collapse include dir [/nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/include/c++/12.3.0] ==> [/nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/include/c++/12.3.0]
+        collapse include dir [/nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/include/c++/12.3.0/x86_64-unknown-linux-gnu] ==> [/nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/include/c++/12.3.0/x86_64-unknown-linux-gnu]
+        collapse include dir [/nix/store/d39m8arbjw7x079cvxf4xq6a1p9iql3q-clang-wrapper-16.0.6/resource-root/include] ==> [/nix/store/d39m8arbjw7x079cvxf4xq6a1p9iql3q-clang-wrapper-16.0.6/resource-root/include]
+        collapse include dir [/nix/store/zzwrkd2n3blr2m5ydm6236kbisvldj73-glibc-2.38-44-dev/include] ==> [/nix/store/zzwrkd2n3blr2m5ydm6236kbisvldj73-glibc-2.38-44-dev/include]
+        implicit include dirs: [/nix/store/g3593hzaqlqj8iibwfjvzm1swvbc4nxp-spdlog-1.12.0-dev/include;/nix/store/zpyxlp8ic075rvkpaddp9xl051imk0vl-fmt-10.1.1-dev/include;/nix/store/1dbg11zhfwqvgm50bjwsgn67i6gydfgj-sqlitecpp-3.3.1/include;/nix/store/g4snrralxm0hdf22a66gvi28i6d7f4hc-sqlite-3.43.2-dev/include;/nix/store/8sxxbkylcw3l86gk8n8vh4b6r8hifd2r-ftxui-5.0.0/include;/nix/store/xv8pl65cfynf00w90rf200qi2dxipp6g-compiler-rt-libc-16.0.6-dev/include;/nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/include/c++/12.3.0;/nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/include/c++/12.3.0/x86_64-unknown-linux-gnu;/nix/store/d39m8arbjw7x079cvxf4xq6a1p9iql3q-clang-wrapper-16.0.6/resource-root/include;/nix/store/zzwrkd2n3blr2m5ydm6236kbisvldj73-glibc-2.38-44-dev/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/nix/store/ih9mk4l2rr9sd10rkmyjm38fn2ysypl0-cmake-3.27.7/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/nix/store/ih9mk4l2rr9sd10rkmyjm38fn2ysypl0-cmake-3.27.7/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/home/vvcaw/dev/i-tuirate/build/CMakeFiles/CMakeScratch/TryCompile-sQfyFz']
+        ignore line: []
+        ignore line: [Run Build Command(s): /nix/store/ih9mk4l2rr9sd10rkmyjm38fn2ysypl0-cmake-3.27.7/bin/cmake -E env VERBOSE=1 /nix/store/5vyb54sgl2x1ihrdfvj46vi2w1acv9nn-gnumake-4.4.1/bin/make -f Makefile cmTC_085a6/fast]
+        ignore line: [/nix/store/5vyb54sgl2x1ihrdfvj46vi2w1acv9nn-gnumake-4.4.1/bin/make  -f CMakeFiles/cmTC_085a6.dir/build.make CMakeFiles/cmTC_085a6.dir/build]
+        ignore line: [make[1]: Entering directory '/home/vvcaw/dev/i-tuirate/build/CMakeFiles/CMakeScratch/TryCompile-sQfyFz']
+        ignore line: [Building CXX object CMakeFiles/cmTC_085a6.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/nix/store/d39m8arbjw7x079cvxf4xq6a1p9iql3q-clang-wrapper-16.0.6/bin/clang++   -std=gnu++20   -v -MD -MT CMakeFiles/cmTC_085a6.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_085a6.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_085a6.dir/CMakeCXXCompilerABI.cpp.o -c /nix/store/ih9mk4l2rr9sd10rkmyjm38fn2ysypl0-cmake-3.27.7/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang version 16.0.6]
+        ignore line: [Target: x86_64-unknown-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /nix/store/pw7xsl0b4g7izz8hq2s5zkying2i7a4g-clang-16.0.6/bin]
+        ignore line: [Found candidate GCC installation: /nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib/gcc/x86_64-unknown-linux-gnu/12.3.0]
+        ignore line: [Found candidate GCC installation: /nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib64/gcc/x86_64-unknown-linux-gnu/12.3.0]
+        ignore line: [Selected GCC installation: /nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib64/gcc/x86_64-unknown-linux-gnu/12.3.0]
+        ignore line: [Candidate multilib: .]
+        ignore line: [@m64]
+        ignore line: [Selected multilib: .]
+        ignore line: [@m64]
+        ignore line: [ (in-process)]
+        ignore line: [ "/nix/store/pw7xsl0b4g7izz8hq2s5zkying2i7a4g-clang-16.0.6/bin/clang-16" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -fhalf-no-semantic-interposition -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/vvcaw/dev/i-tuirate/build/CMakeFiles/CMakeScratch/TryCompile-sQfyFz -nostdsysteminc -resource-dir /nix/store/d39m8arbjw7x079cvxf4xq6a1p9iql3q-clang-wrapper-16.0.6/resource-root -dependency-file CMakeFiles/cmTC_085a6.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_085a6.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -idirafter /nix/store/zzwrkd2n3blr2m5ydm6236kbisvldj73-glibc-2.38-44-dev/include -isystem /nix/store/g3593hzaqlqj8iibwfjvzm1swvbc4nxp-spdlog-1.12.0-dev/include -isystem /nix/store/zpyxlp8ic075rvkpaddp9xl051imk0vl-fmt-10.1.1-dev/include -isystem /nix/store/1dbg11zhfwqvgm50bjwsgn67i6gydfgj-sqlitecpp-3.3.1/include -isystem /nix/store/g4snrralxm0hdf22a66gvi28i6d7f4hc-sqlite-3.43.2-dev/include -isystem /nix/store/8sxxbkylcw3l86gk8n8vh4b6r8hifd2r-ftxui-5.0.0/include -isystem /nix/store/xv8pl65cfynf00w90rf200qi2dxipp6g-compiler-rt-libc-16.0.6-dev/include -isystem /nix/store/g3593hzaqlqj8iibwfjvzm1swvbc4nxp-spdlog-1.12.0-dev/include -isystem /nix/store/zpyxlp8ic075rvkpaddp9xl051imk0vl-fmt-10.1.1-dev/include -isystem /nix/store/1dbg11zhfwqvgm50bjwsgn67i6gydfgj-sqlitecpp-3.3.1/include -isystem /nix/store/g4snrralxm0hdf22a66gvi28i6d7f4hc-sqlite-3.43.2-dev/include -isystem /nix/store/8sxxbkylcw3l86gk8n8vh4b6r8hifd2r-ftxui-5.0.0/include -isystem /nix/store/xv8pl65cfynf00w90rf200qi2dxipp6g-compiler-rt-libc-16.0.6-dev/include -isystem /nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/include/c++/12.3.0 -isystem /nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/include/c++/12.3.0/x86_64-unknown-linux-gnu -U _FORTIFY_SOURCE -U _FORTIFY_SOURCE -D _FORTIFY_SOURCE=2 -internal-isystem /nix/store/d39m8arbjw7x079cvxf4xq6a1p9iql3q-clang-wrapper-16.0.6/resource-root/include -source-date-epoch 315532800 -O2 -Wformat -Wformat-security -Werror=format-security -std=gnu++20 -fdeprecated-macro -fdebug-compilation-dir=/home/vvcaw/dev/i-tuirate/build/CMakeFiles/CMakeScratch/TryCompile-sQfyFz -ferror-limit 19 -fwrapv -stack-protector 2 -stack-protector-buffer-size 4 -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -vectorize-loops -vectorize-slp -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_085a6.dir/CMakeCXXCompilerABI.cpp.o -x c++ /nix/store/ih9mk4l2rr9sd10rkmyjm38fn2ysypl0-cmake-3.27.7/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 16.0.6 based upon LLVM 16.0.6 default target x86_64-unknown-linux-gnu]
+        ignore line: [ignoring duplicate directory "/nix/store/g3593hzaqlqj8iibwfjvzm1swvbc4nxp-spdlog-1.12.0-dev/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/zpyxlp8ic075rvkpaddp9xl051imk0vl-fmt-10.1.1-dev/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/1dbg11zhfwqvgm50bjwsgn67i6gydfgj-sqlitecpp-3.3.1/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/g4snrralxm0hdf22a66gvi28i6d7f4hc-sqlite-3.43.2-dev/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/8sxxbkylcw3l86gk8n8vh4b6r8hifd2r-ftxui-5.0.0/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/xv8pl65cfynf00w90rf200qi2dxipp6g-compiler-rt-libc-16.0.6-dev/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /nix/store/g3593hzaqlqj8iibwfjvzm1swvbc4nxp-spdlog-1.12.0-dev/include]
+        ignore line: [ /nix/store/zpyxlp8ic075rvkpaddp9xl051imk0vl-fmt-10.1.1-dev/include]
+        ignore line: [ /nix/store/1dbg11zhfwqvgm50bjwsgn67i6gydfgj-sqlitecpp-3.3.1/include]
+        ignore line: [ /nix/store/g4snrralxm0hdf22a66gvi28i6d7f4hc-sqlite-3.43.2-dev/include]
+        ignore line: [ /nix/store/8sxxbkylcw3l86gk8n8vh4b6r8hifd2r-ftxui-5.0.0/include]
+        ignore line: [ /nix/store/xv8pl65cfynf00w90rf200qi2dxipp6g-compiler-rt-libc-16.0.6-dev/include]
+        ignore line: [ /nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/include/c++/12.3.0]
+        ignore line: [ /nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/include/c++/12.3.0/x86_64-unknown-linux-gnu]
+        ignore line: [ /nix/store/d39m8arbjw7x079cvxf4xq6a1p9iql3q-clang-wrapper-16.0.6/resource-root/include]
+        ignore line: [ /nix/store/zzwrkd2n3blr2m5ydm6236kbisvldj73-glibc-2.38-44-dev/include]
+        ignore line: [End of search list.]
+        ignore line: [Linking CXX executable cmTC_085a6]
+        ignore line: [/nix/store/ih9mk4l2rr9sd10rkmyjm38fn2ysypl0-cmake-3.27.7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_085a6.dir/link.txt --verbose=1]
+        ignore line: [/nix/store/d39m8arbjw7x079cvxf4xq6a1p9iql3q-clang-wrapper-16.0.6/bin/clang++  -v CMakeFiles/cmTC_085a6.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_085a6 ]
+        ignore line: [clang version 16.0.6]
+        ignore line: [Target: x86_64-unknown-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /nix/store/pw7xsl0b4g7izz8hq2s5zkying2i7a4g-clang-16.0.6/bin]
+        ignore line: [Found candidate GCC installation: /nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib/gcc/x86_64-unknown-linux-gnu/12.3.0]
+        ignore line: [Found candidate GCC installation: /nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib64/gcc/x86_64-unknown-linux-gnu/12.3.0]
+        ignore line: [Selected GCC installation: /nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib64/gcc/x86_64-unknown-linux-gnu/12.3.0]
+        ignore line: [Candidate multilib: .]
+        ignore line: [@m64]
+        ignore line: [Selected multilib: .]
+        ignore line: [@m64]
+        link line: [ "/nix/store/d39m8arbjw7x079cvxf4xq6a1p9iql3q-clang-wrapper-16.0.6/bin/ld" -pie --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -o cmTC_085a6 /nix/store/1zy01hjzwvvia6h9dq5xar88v77fgh9x-glibc-2.38-44/lib/Scrt1.o /nix/store/1zy01hjzwvvia6h9dq5xar88v77fgh9x-glibc-2.38-44/lib/crti.o /nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib/gcc/x86_64-unknown-linux-gnu/12.3.0/crtbeginS.o -L/nix/store/xf3358nrgph9mfkrf57jgvkqwja4in9r-fmt-10.1.1/lib -L/nix/store/pcxg1h9k3l67waslvj1namjwbf2l31xb-spdlog-1.12.0/lib -L/nix/store/1dbg11zhfwqvgm50bjwsgn67i6gydfgj-sqlitecpp-3.3.1/lib -L/nix/store/r6a0kxys5v75c7ha6cnm9zizr5255xjx-sqlite-3.43.2/lib -L/nix/store/8sxxbkylcw3l86gk8n8vh4b6r8hifd2r-ftxui-5.0.0/lib -L/nix/store/xf3358nrgph9mfkrf57jgvkqwja4in9r-fmt-10.1.1/lib -L/nix/store/pcxg1h9k3l67waslvj1namjwbf2l31xb-spdlog-1.12.0/lib -L/nix/store/1dbg11zhfwqvgm50bjwsgn67i6gydfgj-sqlitecpp-3.3.1/lib -L/nix/store/r6a0kxys5v75c7ha6cnm9zizr5255xjx-sqlite-3.43.2/lib -L/nix/store/8sxxbkylcw3l86gk8n8vh4b6r8hifd2r-ftxui-5.0.0/lib -L/nix/store/1zy01hjzwvvia6h9dq5xar88v77fgh9x-glibc-2.38-44/lib -L/nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib/gcc/x86_64-unknown-linux-gnu/12.3.0 -L/nix/store/a3zlvnswi1p8cg7i9w4lpnvaankc7dxx-gcc-12.3.0-lib/lib -L/nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0//lib -L/nix/store/l0ydz31lwa97zickpsxj2vmprcigh1m4-gcc-12.3.0-libgcc/lib -L/nix/store/nzfgg5hbc3v4qisqj0ah9wdrbfszgfin-clang-16.0.6-lib/lib -L/nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib64/gcc/x86_64-unknown-linux-gnu/12.3.0 -L/nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib64/gcc/x86_64-unknown-linux-gnu/12.3.0/../../../../lib64 -dynamic-linker=/nix/store/1zy01hjzwvvia6h9dq5xar88v77fgh9x-glibc-2.38-44/lib/ld-linux-x86-64.so.2 CMakeFiles/cmTC_085a6.dir/CMakeCXXCompilerABI.cpp.o -rpath /home/vvcaw/dev/i-tuirate/outputs/out/lib -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib/gcc/x86_64-unknown-linux-gnu/12.3.0/crtendS.o /nix/store/1zy01hjzwvvia6h9dq5xar88v77fgh9x-glibc-2.38-44/lib/crtn.o]
+          arg [/nix/store/d39m8arbjw7x079cvxf4xq6a1p9iql3q-clang-wrapper-16.0.6/bin/ld] ==> ignore
+          arg [-pie] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_085a6] ==> ignore
+          arg [/nix/store/1zy01hjzwvvia6h9dq5xar88v77fgh9x-glibc-2.38-44/lib/Scrt1.o] ==> obj [/nix/store/1zy01hjzwvvia6h9dq5xar88v77fgh9x-glibc-2.38-44/lib/Scrt1.o]
+          arg [/nix/store/1zy01hjzwvvia6h9dq5xar88v77fgh9x-glibc-2.38-44/lib/crti.o] ==> obj [/nix/store/1zy01hjzwvvia6h9dq5xar88v77fgh9x-glibc-2.38-44/lib/crti.o]
+          arg [/nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib/gcc/x86_64-unknown-linux-gnu/12.3.0/crtbeginS.o] ==> obj [/nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib/gcc/x86_64-unknown-linux-gnu/12.3.0/crtbeginS.o]
+          arg [-L/nix/store/xf3358nrgph9mfkrf57jgvkqwja4in9r-fmt-10.1.1/lib] ==> dir [/nix/store/xf3358nrgph9mfkrf57jgvkqwja4in9r-fmt-10.1.1/lib]
+          arg [-L/nix/store/pcxg1h9k3l67waslvj1namjwbf2l31xb-spdlog-1.12.0/lib] ==> dir [/nix/store/pcxg1h9k3l67waslvj1namjwbf2l31xb-spdlog-1.12.0/lib]
+          arg [-L/nix/store/1dbg11zhfwqvgm50bjwsgn67i6gydfgj-sqlitecpp-3.3.1/lib] ==> dir [/nix/store/1dbg11zhfwqvgm50bjwsgn67i6gydfgj-sqlitecpp-3.3.1/lib]
+          arg [-L/nix/store/r6a0kxys5v75c7ha6cnm9zizr5255xjx-sqlite-3.43.2/lib] ==> dir [/nix/store/r6a0kxys5v75c7ha6cnm9zizr5255xjx-sqlite-3.43.2/lib]
+          arg [-L/nix/store/8sxxbkylcw3l86gk8n8vh4b6r8hifd2r-ftxui-5.0.0/lib] ==> dir [/nix/store/8sxxbkylcw3l86gk8n8vh4b6r8hifd2r-ftxui-5.0.0/lib]
+          arg [-L/nix/store/xf3358nrgph9mfkrf57jgvkqwja4in9r-fmt-10.1.1/lib] ==> dir [/nix/store/xf3358nrgph9mfkrf57jgvkqwja4in9r-fmt-10.1.1/lib]
+          arg [-L/nix/store/pcxg1h9k3l67waslvj1namjwbf2l31xb-spdlog-1.12.0/lib] ==> dir [/nix/store/pcxg1h9k3l67waslvj1namjwbf2l31xb-spdlog-1.12.0/lib]
+          arg [-L/nix/store/1dbg11zhfwqvgm50bjwsgn67i6gydfgj-sqlitecpp-3.3.1/lib] ==> dir [/nix/store/1dbg11zhfwqvgm50bjwsgn67i6gydfgj-sqlitecpp-3.3.1/lib]
+          arg [-L/nix/store/r6a0kxys5v75c7ha6cnm9zizr5255xjx-sqlite-3.43.2/lib] ==> dir [/nix/store/r6a0kxys5v75c7ha6cnm9zizr5255xjx-sqlite-3.43.2/lib]
+          arg [-L/nix/store/8sxxbkylcw3l86gk8n8vh4b6r8hifd2r-ftxui-5.0.0/lib] ==> dir [/nix/store/8sxxbkylcw3l86gk8n8vh4b6r8hifd2r-ftxui-5.0.0/lib]
+          arg [-L/nix/store/1zy01hjzwvvia6h9dq5xar88v77fgh9x-glibc-2.38-44/lib] ==> dir [/nix/store/1zy01hjzwvvia6h9dq5xar88v77fgh9x-glibc-2.38-44/lib]
+          arg [-L/nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib/gcc/x86_64-unknown-linux-gnu/12.3.0] ==> dir [/nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib/gcc/x86_64-unknown-linux-gnu/12.3.0]
+          arg [-L/nix/store/a3zlvnswi1p8cg7i9w4lpnvaankc7dxx-gcc-12.3.0-lib/lib] ==> dir [/nix/store/a3zlvnswi1p8cg7i9w4lpnvaankc7dxx-gcc-12.3.0-lib/lib]
+          arg [-L/nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0//lib] ==> dir [/nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0//lib]
+          arg [-L/nix/store/l0ydz31lwa97zickpsxj2vmprcigh1m4-gcc-12.3.0-libgcc/lib] ==> dir [/nix/store/l0ydz31lwa97zickpsxj2vmprcigh1m4-gcc-12.3.0-libgcc/lib]
+          arg [-L/nix/store/nzfgg5hbc3v4qisqj0ah9wdrbfszgfin-clang-16.0.6-lib/lib] ==> dir [/nix/store/nzfgg5hbc3v4qisqj0ah9wdrbfszgfin-clang-16.0.6-lib/lib]
+          arg [-L/nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib64/gcc/x86_64-unknown-linux-gnu/12.3.0] ==> dir [/nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib64/gcc/x86_64-unknown-linux-gnu/12.3.0]
+          arg [-L/nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib64/gcc/x86_64-unknown-linux-gnu/12.3.0/../../../../lib64] ==> dir [/nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib64/gcc/x86_64-unknown-linux-gnu/12.3.0/../../../../lib64]
+          arg [-dynamic-linker=/nix/store/1zy01hjzwvvia6h9dq5xar88v77fgh9x-glibc-2.38-44/lib/ld-linux-x86-64.so.2] ==> ignore
+          arg [CMakeFiles/cmTC_085a6.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-rpath] ==> ignore
+          arg [/home/vvcaw/dev/i-tuirate/outputs/out/lib] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib/gcc/x86_64-unknown-linux-gnu/12.3.0/crtendS.o] ==> obj [/nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib/gcc/x86_64-unknown-linux-gnu/12.3.0/crtendS.o]
+          arg [/nix/store/1zy01hjzwvvia6h9dq5xar88v77fgh9x-glibc-2.38-44/lib/crtn.o] ==> obj [/nix/store/1zy01hjzwvvia6h9dq5xar88v77fgh9x-glibc-2.38-44/lib/crtn.o]
+        collapse library dir [/nix/store/xf3358nrgph9mfkrf57jgvkqwja4in9r-fmt-10.1.1/lib] ==> [/nix/store/xf3358nrgph9mfkrf57jgvkqwja4in9r-fmt-10.1.1/lib]
+        collapse library dir [/nix/store/pcxg1h9k3l67waslvj1namjwbf2l31xb-spdlog-1.12.0/lib] ==> [/nix/store/pcxg1h9k3l67waslvj1namjwbf2l31xb-spdlog-1.12.0/lib]
+        collapse library dir [/nix/store/1dbg11zhfwqvgm50bjwsgn67i6gydfgj-sqlitecpp-3.3.1/lib] ==> [/nix/store/1dbg11zhfwqvgm50bjwsgn67i6gydfgj-sqlitecpp-3.3.1/lib]
+        collapse library dir [/nix/store/r6a0kxys5v75c7ha6cnm9zizr5255xjx-sqlite-3.43.2/lib] ==> [/nix/store/r6a0kxys5v75c7ha6cnm9zizr5255xjx-sqlite-3.43.2/lib]
+        collapse library dir [/nix/store/8sxxbkylcw3l86gk8n8vh4b6r8hifd2r-ftxui-5.0.0/lib] ==> [/nix/store/8sxxbkylcw3l86gk8n8vh4b6r8hifd2r-ftxui-5.0.0/lib]
+        collapse library dir [/nix/store/xf3358nrgph9mfkrf57jgvkqwja4in9r-fmt-10.1.1/lib] ==> [/nix/store/xf3358nrgph9mfkrf57jgvkqwja4in9r-fmt-10.1.1/lib]
+        collapse library dir [/nix/store/pcxg1h9k3l67waslvj1namjwbf2l31xb-spdlog-1.12.0/lib] ==> [/nix/store/pcxg1h9k3l67waslvj1namjwbf2l31xb-spdlog-1.12.0/lib]
+        collapse library dir [/nix/store/1dbg11zhfwqvgm50bjwsgn67i6gydfgj-sqlitecpp-3.3.1/lib] ==> [/nix/store/1dbg11zhfwqvgm50bjwsgn67i6gydfgj-sqlitecpp-3.3.1/lib]
+        collapse library dir [/nix/store/r6a0kxys5v75c7ha6cnm9zizr5255xjx-sqlite-3.43.2/lib] ==> [/nix/store/r6a0kxys5v75c7ha6cnm9zizr5255xjx-sqlite-3.43.2/lib]
+        collapse library dir [/nix/store/8sxxbkylcw3l86gk8n8vh4b6r8hifd2r-ftxui-5.0.0/lib] ==> [/nix/store/8sxxbkylcw3l86gk8n8vh4b6r8hifd2r-ftxui-5.0.0/lib]
+        collapse library dir [/nix/store/1zy01hjzwvvia6h9dq5xar88v77fgh9x-glibc-2.38-44/lib] ==> [/nix/store/1zy01hjzwvvia6h9dq5xar88v77fgh9x-glibc-2.38-44/lib]
+        collapse library dir [/nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib/gcc/x86_64-unknown-linux-gnu/12.3.0] ==> [/nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib/gcc/x86_64-unknown-linux-gnu/12.3.0]
+        collapse library dir [/nix/store/a3zlvnswi1p8cg7i9w4lpnvaankc7dxx-gcc-12.3.0-lib/lib] ==> [/nix/store/a3zlvnswi1p8cg7i9w4lpnvaankc7dxx-gcc-12.3.0-lib/lib]
+        collapse library dir [/nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0//lib] ==> [/nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib]
+        collapse library dir [/nix/store/l0ydz31lwa97zickpsxj2vmprcigh1m4-gcc-12.3.0-libgcc/lib] ==> [/nix/store/l0ydz31lwa97zickpsxj2vmprcigh1m4-gcc-12.3.0-libgcc/lib]
+        collapse library dir [/nix/store/nzfgg5hbc3v4qisqj0ah9wdrbfszgfin-clang-16.0.6-lib/lib] ==> [/nix/store/nzfgg5hbc3v4qisqj0ah9wdrbfszgfin-clang-16.0.6-lib/lib]
+        collapse library dir [/nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib64/gcc/x86_64-unknown-linux-gnu/12.3.0] ==> [/nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib64/gcc/x86_64-unknown-linux-gnu/12.3.0]
+        collapse library dir [/nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib64/gcc/x86_64-unknown-linux-gnu/12.3.0/../../../../lib64] ==> [/nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib64]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/nix/store/1zy01hjzwvvia6h9dq5xar88v77fgh9x-glibc-2.38-44/lib/Scrt1.o;/nix/store/1zy01hjzwvvia6h9dq5xar88v77fgh9x-glibc-2.38-44/lib/crti.o;/nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib/gcc/x86_64-unknown-linux-gnu/12.3.0/crtbeginS.o;/nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib/gcc/x86_64-unknown-linux-gnu/12.3.0/crtendS.o;/nix/store/1zy01hjzwvvia6h9dq5xar88v77fgh9x-glibc-2.38-44/lib/crtn.o]
+        implicit dirs: [/nix/store/xf3358nrgph9mfkrf57jgvkqwja4in9r-fmt-10.1.1/lib;/nix/store/pcxg1h9k3l67waslvj1namjwbf2l31xb-spdlog-1.12.0/lib;/nix/store/1dbg11zhfwqvgm50bjwsgn67i6gydfgj-sqlitecpp-3.3.1/lib;/nix/store/r6a0kxys5v75c7ha6cnm9zizr5255xjx-sqlite-3.43.2/lib;/nix/store/8sxxbkylcw3l86gk8n8vh4b6r8hifd2r-ftxui-5.0.0/lib;/nix/store/1zy01hjzwvvia6h9dq5xar88v77fgh9x-glibc-2.38-44/lib;/nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib/gcc/x86_64-unknown-linux-gnu/12.3.0;/nix/store/a3zlvnswi1p8cg7i9w4lpnvaankc7dxx-gcc-12.3.0-lib/lib;/nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib;/nix/store/l0ydz31lwa97zickpsxj2vmprcigh1m4-gcc-12.3.0-libgcc/lib;/nix/store/nzfgg5hbc3v4qisqj0ah9wdrbfszgfin-clang-16.0.6-lib/lib;/nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib64/gcc/x86_64-unknown-linux-gnu/12.3.0;/nix/store/fdiknsmnnczx6brsbppyljcs9hqckawk-gcc-12.3.0/lib64]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/nix/store/ih9mk4l2rr9sd10rkmyjm38fn2ysypl0-cmake-3.27.7/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/nix/store/ih9mk4l2rr9sd10rkmyjm38fn2ysypl0-cmake-3.27.7/share/cmake-3.27/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/nix/store/ih9mk4l2rr9sd10rkmyjm38fn2ysypl0-cmake-3.27.7/share/cmake-3.27/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "/nix/store/ih9mk4l2rr9sd10rkmyjm38fn2ysypl0-cmake-3.27.7/share/cmake-3.27/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "/nix/store/ih9mk4l2rr9sd10rkmyjm38fn2ysypl0-cmake-3.27.7/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/nix/store/1dbg11zhfwqvgm50bjwsgn67i6gydfgj-sqlitecpp-3.3.1/lib/cmake/SQLiteCpp/SQLiteCppConfig.cmake:7 (find_dependency)"
+      - "CMakeLists.txt:9 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/home/vvcaw/dev/i-tuirate/build/CMakeFiles/CMakeScratch/TryCompile-sZWxXG"
+      binary: "/home/vvcaw/dev/i-tuirate/build/CMakeFiles/CMakeScratch/TryCompile-sZWxXG"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/home/vvcaw/dev/i-tuirate/build/CMakeFiles/CMakeScratch/TryCompile-sZWxXG'
+        
+        Run Build Command(s): /nix/store/ih9mk4l2rr9sd10rkmyjm38fn2ysypl0-cmake-3.27.7/bin/cmake -E env VERBOSE=1 /nix/store/5vyb54sgl2x1ihrdfvj46vi2w1acv9nn-gnumake-4.4.1/bin/make -f Makefile cmTC_401cf/fast
+        /nix/store/5vyb54sgl2x1ihrdfvj46vi2w1acv9nn-gnumake-4.4.1/bin/make  -f CMakeFiles/cmTC_401cf.dir/build.make CMakeFiles/cmTC_401cf.dir/build
+        make[1]: Entering directory '/home/vvcaw/dev/i-tuirate/build/CMakeFiles/CMakeScratch/TryCompile-sZWxXG'
+        Building C object CMakeFiles/cmTC_401cf.dir/src.c.o
+        /nix/store/d39m8arbjw7x079cvxf4xq6a1p9iql3q-clang-wrapper-16.0.6/bin/clang -DCMAKE_HAVE_LIBC_PTHREAD   -MD -MT CMakeFiles/cmTC_401cf.dir/src.c.o -MF CMakeFiles/cmTC_401cf.dir/src.c.o.d -o CMakeFiles/cmTC_401cf.dir/src.c.o -c /home/vvcaw/dev/i-tuirate/build/CMakeFiles/CMakeScratch/TryCompile-sZWxXG/src.c
+        Linking C executable cmTC_401cf
+        /nix/store/ih9mk4l2rr9sd10rkmyjm38fn2ysypl0-cmake-3.27.7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_401cf.dir/link.txt --verbose=1
+        /nix/store/d39m8arbjw7x079cvxf4xq6a1p9iql3q-clang-wrapper-16.0.6/bin/clang CMakeFiles/cmTC_401cf.dir/src.c.o -o cmTC_401cf 
+        make[1]: Leaving directory '/home/vvcaw/dev/i-tuirate/build/CMakeFiles/CMakeScratch/TryCompile-sZWxXG'
+        
+      exitCode: 0
+...

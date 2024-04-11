@@ -1,0 +1,8 @@
+/home/vvcaw/dev/i-tuirate/build/CMakeFiles/edit_cache.dir
+/home/vvcaw/dev/i-tuirate/build/CMakeFiles/rebuild_cache.dir
+/home/vvcaw/dev/i-tuirate/build/src/CMakeFiles/i-tuirate_lib.dir
+/home/vvcaw/dev/i-tuirate/build/src/CMakeFiles/edit_cache.dir
+/home/vvcaw/dev/i-tuirate/build/src/CMakeFiles/rebuild_cache.dir
+/home/vvcaw/dev/i-tuirate/build/app/CMakeFiles/i-tuirate.dir
+/home/vvcaw/dev/i-tuirate/build/app/CMakeFiles/edit_cache.dir
+/home/vvcaw/dev/i-tuirate/build/app/CMakeFiles/rebuild_cache.dir

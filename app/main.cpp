@@ -4,7 +4,8 @@
 
 #include "i-tuirate/ui.h"
 
-int main(void) {
-    test_ui();
-    return 0;
+int main() {
+    const UI ui{Logic{}};
+
+    return EXIT_SUCCESS;
 }

@@ -1,0 +1,2 @@
+/nix/store/d39m8arbjw7x079cvxf4xq6a1p9iql3q-clang-wrapper-16.0.6/bin/ar qc libi-tuirate_lib.a "CMakeFiles/i-tuirate_lib.dir/ui.cpp.o"
+/nix/store/d39m8arbjw7x079cvxf4xq6a1p9iql3q-clang-wrapper-16.0.6/bin/ranlib libi-tuirate_lib.a

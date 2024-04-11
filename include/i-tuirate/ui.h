@@ -5,51 +5,45 @@
 #ifndef I_TUIRATE_UI_H
 #define I_TUIRATE_UI_H
 
+#include "i-tuirate/logic.h"
+
+#include <iostream>
 #include <ftxui/dom/canvas.hpp>
 #include <ftxui/dom/elements.hpp>
-#include <ftxui/screen/screen.hpp>
-#include <ftxui/screen/string.hpp>
-#include <SQLiteCpp/Database.h>
-#include <iostream>
+#include <ftxui/component/loop.hpp>
+#include "ftxui/component/captured_mouse.hpp"
+#include "ftxui/component/component.hpp"
+#include "ftxui/component/component_base.hpp"
+#include "ftxui/component/screen_interactive.hpp"
+#include "ftxui/dom/elements.hpp"
 
-void test_ui() {
-    using namespace ftxui;
-    vbox({
-                 hbox({
-                              text("one") | border,
-                              text("two") | border | flex,
-                              text("three") | border | flex,
-                      }),
+using namespace ftxui;
 
-                 gauge(0.25) | color(Color::Red),
-                 gauge(0.50) | color(Color::White),
-                 gauge(0.75) | color(Color::Blue),
-         });
-    try {
-        // Open a database file
-        SQLite::Database db("example.db3", SQLite::OPEN_READWRITE | SQLite::OPEN_CREATE);
-        SQLite::Statement create_query(db, "CREATE TABLE test");
-        create_query.exec();
+class UI {
+public:
+    explicit UI(const Logic &logic);
 
-        // Compile a SQL query, containing one parameter (index 1)
-        SQLite::Statement query(db, "SELECT * FROM test WHERE size > ?");
+    UI(const UI &other) = delete;
 
-        // Bind the integer value 6 to the first parameter of the SQL query
-        query.bind(1, 6);
+    UI(const UI &&other) = delete;
 
-        // Loop to execute the query step by step, to get rows of result
-        while (query.executeStep()) {
-            // Demonstrate how to get some typed column value
-            int id = query.getColumn(0);
-            const char *value = query.getColumn(1);
-            int size = query.getColumn(2);
+    UI &operator=(const UI &other) = delete;
 
-            std::cout << "row: " << id << ", " << value << ", " << size << std::endl;
-        }
-    }
-    catch (std::exception &e) {
-        std::cout << "exception: " << e.what() << std::endl;
-    }
-}
+    UI &operator=(const UI &&other) = delete;
+
+    ~UI() = default;
+
+private:
+    Logic logic_;
+
+    std::string current_word_{"Loading..."};
+
+    // Currently selected column in the buttons
+    int col_{0};
+
+    [[nodiscard]] Component make_good_bad_button();
+
+    [[nodiscard]] static ButtonOption make_button_style();
+};
 
 #endif //I_TUIRATE_UI_H
